@@ -14,7 +14,15 @@ h1 {
 .gallery img:hover{
     opacity: 1;  
    margin: 20px;
-   border: 3px solid navy;
+   border: 5px solid navy;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.gallery img{
+    opacity: 0.8;  
+   margin: 20px;
+   border: 5px solid navy;
 }
 
 h2{
