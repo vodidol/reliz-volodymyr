@@ -11,19 +11,16 @@ h1 {
     color: yellow;
 }
 
-img{
-    display: right;
+.gallery img:hover{
+    opacity: 1;  
+   margin: 20px;
+   border: 3px solid navy;
 }
 
 h2{
     text-align: center;
     background-color: blue;
     color: yellow; 
-}
-
-nav a{
-     color: yellow;
-    
 }
 
 header{
@@ -49,4 +46,18 @@ p{
 
 .footer-info{
     text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 15px;
+    margin: 2px;
+    color: black;
+}
+
+nav a:hover{
+    background-color: yellow;
+    color: white;
 }
